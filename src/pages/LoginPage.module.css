@@ -1,0 +1,35 @@
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.loginBox {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.loginTitle {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.loginSwitch {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #888;
+  cursor: pointer;
+}
+
+.loginSwitch:hover {
+  color: #4caf50;
+}

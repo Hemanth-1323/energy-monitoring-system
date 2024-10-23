@@ -1,0 +1,78 @@
+/* Dashboard.module.css */
+
+.dashboardContainer {
+  padding: 20px;
+  min-height: 100vh;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+/* Light mode styles */
+.dashboardContainer.lightMode {
+  background-color: #f4f6f9; /* Light background */
+  color: #000; /* Dark text */
+}
+
+.dashboardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4caf50; /* Header background */
+  padding: 20px;
+  border-radius: 8px;
+  color: white; /* Header text color */
+  margin-bottom: 30px;
+}
+
+.dashboardHeader h1 {
+  margin: 0;
+}
+
+.logoutButton {
+  background-color: #ff4d4d; /* Logout button color */
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Dark mode styles */
+.dashboardContainer.darkMode {
+  background-color: #121212; /* Dark background */
+  color: #ffffff; /* Light text */
+}
+
+.dashboardHeader.darkMode {
+  background-color: #1f1f1f; /* Darker header background */
+}
+
+.dashboardContent {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.searchBox {
+  margin-bottom: 20px;
+}
+
+.totalPower {
+  font-size: 18px;
+  color: #333; /* Default color for total power */
+}
+
+/* Adjust total power color for dark mode */
+.darkMode .totalPower {
+  color: #ffffff; /* Light color for dark mode */
+}
+
+.chartContainer {
+  background-color: white; /* Chart container background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Dark mode styles for chart container */
+.darkMode .chartContainer {
+  background-color: #1e1e1e; /* Dark background for chart container */
+  color: #ffffff; /* Light text for chart container */
+}
